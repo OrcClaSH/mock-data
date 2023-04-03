@@ -1,0 +1,840 @@
+{
+   "global": {
+    "data": {
+      "active_cryptocurrencies": 11049,
+      "upcoming_icos": 0,
+      "ongoing_icos": 49,
+      "ended_icos": 3376,
+      "markets": 703,
+      "total_market_cap": {
+        "btc": 43369276.89150513,
+        "eth": 677225655.6446332,
+        "ltc": 13569551401.936804,
+        "bch": 9992187472.683487,
+        "bnb": 3859773837.389161,
+        "eos": 1026592146626.8407,
+        "xrp": 2227784027305.8545,
+        "xlm": 10853075409333.768,
+        "link": 165904183789.4943,
+        "dot": 196428183384.87473,
+        "yfi": 139234793.12043577,
+        "usd": 1221655285413.72,
+        "aed": 4487017697796.044,
+        "ars": 254823170202202.62,
+        "aud": 1819361128699.95,
+        "bdt": 131043660332092.98,
+        "bhd": 460549382737.54553,
+        "bmd": 1221655285413.72,
+        "brl": 6223112023897.483,
+        "cad": 1652691919766.2407,
+        "chf": 1117412661564.6526,
+        "clp": 963105122251468.8,
+        "cny": 8386785699893.743,
+        "czk": 26370223411590.64,
+        "dkk": 8348545446149.693,
+        "eur": 1120841847950.8098,
+        "gbp": 986250863501.4934,
+        "hkd": 9589786309099.18,
+        "huf": 426221853871581.7,
+        "idr": 1.830049110910809e+16,
+        "ils": 4398869160677.014,
+        "inr": 100438515120783.34,
+        "jpy": 162462590052711.8,
+        "krw": 1585012166866453.8,
+        "kwd": 374620593272.1172,
+        "lkr": 396773623545490.25,
+        "mmk": 2.565846164409523e+15,
+        "mxn": 22114551796848.7,
+        "myr": 5387255477617.406,
+        "ngn": 562389010640206.1,
+        "nok": 12712417847865.477,
+        "nzd": 1943236974640.9,
+        "php": 66375591903017.2,
+        "pkr": 346581759772391.2,
+        "pln": 5237944768634.17,
+        "rub": 94079671086400.12,
+        "sar": 4585860605283.572,
+        "sek": 12668388169723.883,
+        "sgd": 1621517720193.0532,
+        "thb": 41628514678115.18,
+        "try": 23434769009034.297,
+        "twd": 37234429519535.84,
+        "uah": 45106932550618.5,
+        "vef": 122324343728.47578,
+        "vnd": 2.866389846705746e+16,
+        "zar": 21808501493091.547,
+        "xdr": 910724468791.3601,
+        "xag": 51185963771.809525,
+        "xau": 617229116.4024283,
+        "bits": 43369276891505.13,
+        "sats": 4.336927689150513e+15
+      },
+      "total_volume": {
+        "btc": 1815236.2816258012,
+        "eth": 28345517.12838797,
+        "ltc": 567958328.929544,
+        "bch": 418226508.1015143,
+        "bnb": 161552186.49428797,
+        "eos": 42968374032.40556,
+        "xrp": 93244681116.27965,
+        "xlm": 454259274359.77893,
+        "link": 6943977748.155478,
+        "dot": 8221570447.348458,
+        "yfi": 5827721.056294192,
+        "usd": 51132810059.77009,
+        "aed": 187805698068.5292,
+        "ars": 10665713083183.752,
+        "aud": 76149997576.80309,
+        "bdt": 5484878323125.934,
+        "bhd": 19276455798.812527,
+        "bmd": 51132810059.77009,
+        "brl": 260470534444.46857,
+        "cad": 69173999433.15868,
+        "chf": 46769698510.17996,
+        "clp": 40311102380241.81,
+        "cny": 351031854341.32825,
+        "czk": 1103734941466.6753,
+        "dkk": 349431295120.83606,
+        "eur": 46913228308.01778,
+        "gbp": 41279875490.92278,
+        "hkd": 401383866391.485,
+        "huf": 17839665049177.965,
+        "idr": 765973468174892.5,
+        "ils": 184116210158.66635,
+        "inr": 4203889245743.4326,
+        "jpy": 6799928636309.498,
+        "krw": 66341239659402.2,
+        "kwd": 15679876204.828497,
+        "lkr": 16607099049718.91,
+        "mmk": 107394390327473.23,
+        "mxn": 925612314771.9757,
+        "myr": 225485465801.5735,
+        "ngn": 23538989111015.168,
+        "nok": 532082703669.7209,
+        "nzd": 81334864516.86372,
+        "php": 2778173658236.502,
+        "pkr": 14506301003413.576,
+        "pln": 219236013756.06958,
+        "rub": 3937737600437.2793,
+        "sar": 191942802597.65472,
+        "sek": 530239826062.3568,
+        "sgd": 67869192386.05347,
+        "thb": 1742376069191.694,
+        "try": 980870468814.5571,
+        "twd": 1558460095117.2217,
+        "uah": 1887966468142.0728,
+        "vef": 5119928271.28478,
+        "vnd": 1199737514655968.5,
+        "zar": 912802472062.991,
+        "xdr": 38118691774.59758,
+        "xag": 2142406450.1009,
+        "xau": 25834340.95459826,
+        "bits": 1815236281625.8013,
+        "sats": 181523628162580.12
+      },
+      "market_cap_percentage": {
+        "btc": 44.57778267404506,
+        "eth": 17.78988113762707,
+        "usdt": 6.527954321428926,
+        "bnb": 4.091057221769625,
+        "usdc": 2.691395299427431,
+        "xrp": 2.3122139328041618,
+        "ada": 1.090691922995028,
+        "steth": 0.8668580584310261,
+        "doge": 0.8510156254292665,
+        "matic": 0.814888390402396
+      },
+      "market_cap_change_percentage_24h_usd": -0.5932407965276351,
+      "updated_at": 1680241551
+    }
+  },
+  "coins": {
+    "categories": {
+      "list": [
+        {
+          "category_id": "aave-tokens",
+          "name": "Aave Tokens"
+        },
+        {
+          "category_id": "algorand-ecosystem",
+          "name": "Algorand Ecosystem"
+        },
+        {
+          "category_id": "analytics",
+          "name": "Analytics"
+        },
+        {
+          "category_id": "aptos-ecosystem",
+          "name": "Aptos Ecosystem"
+        },
+        {
+          "category_id": "arbitrum-ecosystem",
+          "name": "Arbitrum Ecosystem"
+        },
+        {
+          "category_id": "arbitrum-nova-ecosystem",
+          "name": "Arbitrum Nova Ecosystem"
+        },
+        {
+          "category_id": "artificial-intelligence",
+          "name": "Artificial Intelligence (AI)"
+        },
+        {
+          "category_id": "asset-backed-tokens",
+          "name": "Asset-backed Tokens"
+        },
+        {
+          "category_id": "asset-manager",
+          "name": "Asset Manager"
+        },
+        {
+          "category_id": "augmented-reality",
+          "name": "Augmented Reality"
+        },
+        {
+          "category_id": "automated-market-maker-amm",
+          "name": "Automated Market Maker (AMM)"
+        },
+        {
+          "category_id": "avalanche-ecosystem",
+          "name": "Avalanche Ecosystem"
+        },
+        {
+          "category_id": "axie-infinity",
+          "name": "Axie Infinity"
+        },
+        {
+          "category_id": "big-data",
+          "name": "Big Data"
+        },
+        {
+          "category_id": "binance-launchpool",
+          "name": "Binance Launchpool"
+        },
+        {
+          "category_id": "binance-smart-chain",
+          "name": "BNB Chain Ecosystem"
+        },
+        {
+          "category_id": "business-platform",
+          "name": "Business Platform"
+        },
+        {
+          "category_id": "business-services",
+          "name": "Business Services"
+        },
+        {
+          "category_id": "canto-ecosystem",
+          "name": "Canto Ecosystem"
+        },
+        {
+          "category_id": "cardano-ecosystem",
+          "name": "Cardano Ecosystem"
+        },
+        {
+          "category_id": "celer-network",
+          "name": "Celer Network"
+        },
+        {
+          "category_id": "celo-ecosystem",
+          "name": "Celo Ecosystem"
+        },
+        {
+          "category_id": "centralized-exchange-token-cex",
+          "name": "Centralized Exchange (CEX)"
+        },
+        {
+          "category_id": "charity",
+          "name": "Charity"
+        },
+        {
+          "category_id": "cny-stablecoin",
+          "name": "CNY Stablecoin"
+        },
+        {
+          "category_id": "collectibles",
+          "name": "Collectibles"
+        },
+        {
+          "category_id": "communication",
+          "name": "Communication"
+        },
+        {
+          "category_id": "compound-tokens",
+          "name": "Compound Tokens"
+        },
+        {
+          "category_id": "cosmos-ecosystem",
+          "name": "Cosmos Ecosystem"
+        },
+        {
+          "category_id": "cronos-ecosystem",
+          "name": "Cronos Ecosystem"
+        },
+        {
+          "category_id": "cryptocurrency",
+          "name": "Cryptocurrency"
+        },
+        {
+          "category_id": "ctokens",
+          "name": "cToken"
+        },
+        {
+          "category_id": "daomaker-ecosystem",
+          "name": "DaoMaker Ecosystem"
+        },
+        {
+          "category_id": "decentralized-exchange",
+          "name": "Decentralized Exchange (DEX)"
+        },
+        {
+          "category_id": "decentralized-finance-defi",
+          "name": "Decentralized Finance (DeFi)"
+        },
+        {
+          "category_id": "defi-index",
+          "name": "DeFi Index"
+        },
+        {
+          "category_id": "decentralized-derivatives",
+          "name": "Derivatives"
+        },
+        {
+          "category_id": "edgeware-ecosystem",
+          "name": "Edgeware Ecosystem"
+        },
+        {
+          "category_id": "education",
+          "name": "Education"
+        },
+        {
+          "category_id": "energy",
+          "name": "Energy"
+        },
+        {
+          "category_id": "entertainment",
+          "name": "Entertainment"
+        },
+        {
+          "category_id": "eco-friendly",
+          "name": "Environment"
+        },
+        {
+          "category_id": "etf",
+          "name": "ETF"
+        },
+        {
+          "category_id": "eth-2-0-staking",
+          "name": "Eth 2.0 Staking"
+        },
+        {
+          "category_id": "ethereum-ecosystem",
+          "name": "Ethereum Ecosystem"
+        },
+        {
+          "category_id": "ethereum-pos-iou",
+          "name": "Ethereum PoS IOU"
+        },
+        {
+          "category_id": "ethereumpow-ecosystem",
+          "name": "EthereumPoW Ecosystem"
+        },
+        {
+          "category_id": "ethereum-pow-iou",
+          "name": "Ethereum PoW IOU"
+        },
+        {
+          "category_id": "eur-stablecoin",
+          "name": "EUR Stablecoin"
+        },
+        {
+          "category_id": "exchange-based-tokens",
+          "name": "Exchange-based Tokens"
+        },
+        {
+          "category_id": "fan-token",
+          "name": "Fan Token"
+        },
+        {
+          "category_id": "fantom-ecosystem",
+          "name": "Fantom Ecosystem"
+        },
+        {
+          "category_id": "farming-as-a-service-faas",
+          "name": "Farming-as-a-Service (FaaS)"
+        },
+        {
+          "category_id": "finance-banking",
+          "name": "Finance / Banking"
+        },
+        {
+          "category_id": "fractionalized-nft",
+          "name": "Fractionalized NFT"
+        },
+        {
+          "category_id": "gambling",
+          "name": "Gambling"
+        },
+        {
+          "category_id": "gaming",
+          "name": "Gaming (GameFi)"
+        },
+        {
+          "category_id": "gbp-stablecoin",
+          "name": "GBP Stablecoin"
+        },
+        {
+          "category_id": "gig-economy",
+          "name": "Gig Economy"
+        },
+        {
+          "category_id": "xdai-ecosystem",
+          "name": "Gnosis Chain Ecosystem"
+        },
+        {
+          "category_id": "gotchiverse",
+          "name": "Gotchiverse"
+        },
+        {
+          "category_id": "governance",
+          "name": "Governance"
+        },
+        {
+          "category_id": "guild-scholarship",
+          "name": "Guild and Scholarship"
+        },
+        {
+          "category_id": "harmony-ecosystem",
+          "name": "Harmony Ecosystem"
+        },
+        {
+          "category_id": "healthcare",
+          "name": "Healthcare"
+        },
+        {
+          "category_id": "heco-chain-ecosystem",
+          "name": "HECO Chain Ecosystem"
+        },
+        {
+          "category_id": "identity",
+          "name": "Identity"
+        },
+        {
+          "category_id": "idr-stablecoin",
+          "name": "IDR Stablecoin"
+        },
+        {
+          "category_id": "impossible-launchpad",
+          "name": "Impossible Launchpad"
+        },
+        {
+          "category_id": "index-coin",
+          "name": "Index"
+        },
+        {
+          "category_id": "infrastructure",
+          "name": "Infrastructure"
+        },
+        {
+          "category_id": "insurance",
+          "name": "Insurance"
+        },
+        {
+          "category_id": "dfinity-ecosystem",
+          "name": "Internet Computer Ecosystem"
+        },
+        {
+          "category_id": "internet-of-things-iot",
+          "name": "Internet of Things (IOT)"
+        },
+        {
+          "category_id": "interoperability",
+          "name": "Interoperability"
+        },
+        {
+          "category_id": "investment",
+          "name": "Investment"
+        },
+        {
+          "category_id": "iotex-ecosystem",
+          "name": "IoTeX Ecosystem"
+        },
+        {
+          "category_id": "iou-tokens",
+          "name": "IOU tokens"
+        },
+        {
+          "category_id": "jpy-stablecoin",
+          "name": "JPY Stablecoin"
+        },
+        {
+          "category_id": "kardiachain-ecosystem",
+          "name": "KardiaChain Ecosystem"
+        },
+        {
+          "category_id": "klaytn-ecosystem",
+          "name": "Klaytn Ecosystem"
+        },
+        {
+          "category_id": "kommunitas",
+          "name": "Kommunitas Launchpad"
+        },
+        {
+          "category_id": "krw-stablecoin",
+          "name": "KRW Stablecoin"
+        },
+        {
+          "category_id": "launchpad",
+          "name": "Launchpad"
+        },
+        {
+          "category_id": "layer-1",
+          "name": "Layer 1 (L1)"
+        },
+        {
+          "category_id": "layer-2",
+          "name": "Layer 2 (L2)"
+        },
+        {
+          "category_id": "legal",
+          "name": "Legal"
+        },
+        {
+          "category_id": "lending-borrowing",
+          "name": "Lending/Borrowing"
+        },
+        {
+          "category_id": "leveraged-token",
+          "name": "Leveraged Token"
+        },
+        {
+          "category_id": "liquid-staking-governance-tokens",
+          "name": "Liquid Staking Governance Tokens"
+        },
+        {
+          "category_id": "liquid-staking-tokens",
+          "name": "Liquid Staking Tokens"
+        },
+        {
+          "category_id": "lp-tokens",
+          "name": "LP Tokens"
+        },
+        {
+          "category_id": "manufacturing",
+          "name": "Manufacturing"
+        },
+        {
+          "category_id": "marketing",
+          "name": "Marketing"
+        },
+        {
+          "category_id": "masternodes",
+          "name": "Masternodes"
+        },
+        {
+          "category_id": "media",
+          "name": "Media"
+        },
+        {
+          "category_id": "meme-token",
+          "name": "Meme"
+        },
+        {
+          "category_id": "metagovernance",
+          "name": "Metagovernance"
+        },
+        {
+          "category_id": "metaverse",
+          "name": "Metaverse"
+        },
+        {
+          "category_id": "metis-ecosystem",
+          "name": "Metis Ecosystem"
+        },
+        {
+          "category_id": "mev-protection",
+          "name": "MEV Protection"
+        },
+        {
+          "category_id": "mirrored-assets",
+          "name": "Mirrored Assets"
+        },
+        {
+          "category_id": "moonbeam-ecosystem",
+          "name": "Moonbeam Ecosystem"
+        },
+        {
+          "category_id": "moonriver-ecosystem",
+          "name": "Moonriver Ecosystem"
+        },
+        {
+          "category_id": "move-to-earn",
+          "name": "Move To Earn"
+        },
+        {
+          "category_id": "multversx-ecosystem",
+          "name": "MultiversX Ecosystem"
+        },
+        {
+          "category_id": "music",
+          "name": "Music"
+        },
+        {
+          "category_id": "near-protocol-ecosystem",
+          "name": "Near Protocol Ecosystem"
+        },
+        {
+          "category_id": "non-fungible-tokens-nft",
+          "name": "NFT"
+        },
+        {
+          "category_id": "nft-index",
+          "name": "NFT Index"
+        },
+        {
+          "category_id": "nft-marketplace",
+          "name": "NFT Marketplace"
+        },
+        {
+          "category_id": "niftex-shards",
+          "name": "Niftex Shards"
+        },
+        {
+          "category_id": "number",
+          "name": "Number"
+        },
+        {
+          "category_id": "oec-ecosystem",
+          "name": "OEC Ecosystem"
+        },
+        {
+          "category_id": "ohm-fork",
+          "name": "Ohm Fork"
+        },
+        {
+          "category_id": "olympus-pro",
+          "name": "Olympus Pro"
+        },
+        {
+          "category_id": "optimism-ecosystem",
+          "name": "Optimism Ecosystem"
+        },
+        {
+          "category_id": "decentralized-options",
+          "name": "Options"
+        },
+        {
+          "category_id": "oracle",
+          "name": "Oracle"
+        },
+        {
+          "category_id": "decentralized-perpetuals",
+          "name": "Perpetuals"
+        },
+        {
+          "category_id": "play-to-earn",
+          "name": "Play To Earn"
+        },
+        {
+          "category_id": "dot-ecosystem",
+          "name": "Polkadot Ecosystem"
+        },
+        {
+          "category_id": "polygon-ecosystem",
+          "name": "Polygon Ecosystem"
+        },
+        {
+          "category_id": "prediction-markets",
+          "name": "Prediction Markets"
+        },
+        {
+          "category_id": "privacy-coins",
+          "name": "Privacy Coins"
+        },
+        {
+          "category_id": "protocol",
+          "name": "Protocol"
+        },
+        {
+          "category_id": "real-estate",
+          "name": "Real Estate"
+        },
+        {
+          "category_id": "realt-tokens",
+          "name": "RealT Tokens"
+        },
+        {
+          "category_id": "rebase-tokens",
+          "name": "Rebase Tokens"
+        },
+        {
+          "category_id": "reddit-points",
+          "name": "Reddit Points"
+        },
+        {
+          "category_id": "remittance",
+          "name": "Remittance"
+        },
+        {
+          "category_id": "retail",
+          "name": "Retail"
+        },
+        {
+          "category_id": "seigniorage",
+          "name": "Seigniorage"
+        },
+        {
+          "category_id": "sgd-stablcoin",
+          "name": "SGD Stablcoin"
+        },
+        {
+          "category_id": "smart-contract-platform",
+          "name": "Smart Contract Platform"
+        },
+        {
+          "category_id": "social-money",
+          "name": "Social Money"
+        },
+        {
+          "category_id": "software",
+          "name": "Software"
+        },
+        {
+          "category_id": "solana-ecosystem",
+          "name": "Solana Ecosystem"
+        },
+        {
+          "category_id": "sports",
+          "name": "Sports"
+        },
+        {
+          "category_id": "stablecoins",
+          "name": "Stablecoins"
+        },
+        {
+          "category_id": "step-network-ecosystem",
+          "name": "Step Network Ecosystem"
+        },
+        {
+          "category_id": "storage",
+          "name": "Storage"
+        },
+        {
+          "category_id": "structured-products",
+          "name": "Structured Products"
+        },
+        {
+          "category_id": "synthetic-assets",
+          "name": "Synthetic Issuer"
+        },
+        {
+          "category_id": "synths",
+          "name": "Synths"
+        },
+        {
+          "category_id": "technology-science",
+          "name": "Technology \u0026 Science"
+        },
+        {
+          "category_id": "terra-ecosystem",
+          "name": "Terra Ecosystem"
+        },
+        {
+          "category_id": "tezos-ecosystem",
+          "name": "Tezos Ecosystem"
+        },
+        {
+          "category_id": "tokenized-btc",
+          "name": "Tokenized BTC"
+        },
+        {
+          "category_id": "tokenized-gold",
+          "name": "Tokenized Gold"
+        },
+        {
+          "category_id": "tokenized-products",
+          "name": "Tokenized Products"
+        },
+        {
+          "category_id": "tokenized-stock",
+          "name": "Tokenized Stock"
+        },
+        {
+          "category_id": "tokensets",
+          "name": "TokenSets"
+        },
+        {
+          "category_id": "tourism",
+          "name": "Tourism"
+        },
+        {
+          "category_id": "try-stablecoins",
+          "name": "TRY Stablecoin"
+        },
+        {
+          "category_id": "usd-stablecoin",
+          "name": "USD Stablecoin"
+        },
+        {
+          "category_id": "us-election-2020",
+          "name": "US Election 2020"
+        },
+        {
+          "category_id": "utokens",
+          "name": "uTokens"
+        },
+        {
+          "category_id": "velas-ecosystem",
+          "name": "Velas Ecosystem"
+        },
+        {
+          "category_id": "virtual-reality",
+          "name": "Virtual Reality"
+        },
+        {
+          "category_id": "wallets",
+          "name": "Wallets"
+        },
+        {
+          "category_id": "wormhole-assets",
+          "name": "Wormhole Assets"
+        },
+        {
+          "category_id": "wrapped-tokens",
+          "name": "Wrapped-Tokens"
+        },
+        {
+          "category_id": "xdc-ecosystem",
+          "name": "XDC Ecosystem"
+        },
+        {
+          "category_id": "yearn-yfi-partnerships-mergers",
+          "name": "Yearn Ecosystem"
+        },
+        {
+          "category_id": "yearn-vault-tokens",
+          "name": "Yearn Vault Tokens"
+        },
+        {
+          "category_id": "yield-aggregator",
+          "name": "Yield Aggregator"
+        },
+        {
+          "category_id": "yield-farming",
+          "name": "Yield Farming"
+        },
+        {
+          "category_id": "zero-knowledge-zk",
+          "name": "Zero Knowledge (ZK)"
+        },
+        {
+          "category_id": "zilliqa-ecosystem",
+          "name": "Zilliqa Ecosystem"
+        }
+      ]
+    }
+  },
+  "simple": {
+    "supported_vs_currencies": ["btc","eth","ltc","bch","bnb","eos","xrp","xlm","link","dot","yfi","usd","aed","ars","aud","bdt","bhd","bmd","brl","cad","chf","clp","cny","czk","dkk","eur","gbp","hkd","huf","idr","ils","inr","jpy","krw","kwd","lkr","mmk","mxn","myr","ngn","nok","nzd","php","pkr","pln","rub","sar","sek","sgd","thb","try","twd","uah","vef","vnd","zar","xdr","xag","xau","bits","sats"]
+  }
+}
